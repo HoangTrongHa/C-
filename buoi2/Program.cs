@@ -11,6 +11,9 @@ namespace buoi2
             Console.WriteLine(x+15);
             Console.WriteLine(x+"Xuan huy");
             Student s1 = new Student();
+            s1.showIf();
+            Social.Hello();
+            Console.WriteLine(Social.FirsofWeek+10);
         }
     }
 }

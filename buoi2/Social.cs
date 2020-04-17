@@ -6,7 +6,6 @@ namespace buoi2
     {
         public static void Hello()
         {
-            Match
         }
 
         public static int FirsofWeek;
