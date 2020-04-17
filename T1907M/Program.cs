@@ -10,22 +10,27 @@ namespace T1907M
         {
             Console.WriteLine("Hello World!");
             // TotalNumber();
-            int i;
-            i = Convert.ToInt32(Console.ReadLine());
-            // int no;
-            // no = Convert.ToInt32(Console.ReadLine());
-            // Console.WriteLine(no);
-            int f0 = 1;
-            int f1 = 1;
-            int fi = 1;
-            while (f0 + f1 < i)
-                
-            {
-                fi = f0 + f1;
-                f0 = f1;
-                f1 = fi;
-            }
-            Console.WriteLine("So fi bo sau n la");
+            // int i;
+            // i = Convert.ToInt32(Console.ReadLine());
+            // // int no;
+            // // no = Convert.ToInt32(Console.ReadLine());
+            // // Console.WriteLine(no);
+            // int f0 = 1;
+            // int f1 = 1;
+            // int fi = 1;
+            // while (f0 + f1 < i)
+            //     
+            // {
+            //     fi = f0 + f1;
+            //     f0 = f1;
+            //     f1 = fi;
+            // }
+            // Console.WriteLine("So fi bo sau n la")
+            dynamic x;
+            x = 20;
+            Console.WriteLine(x+15);
+            x = "xin chao";
+            Console.WriteLine(x+"Hoang Ha");
         }
 
         // static void TotalNumber()
