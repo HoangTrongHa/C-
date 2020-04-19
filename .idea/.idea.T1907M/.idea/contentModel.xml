@@ -10,6 +10,7 @@
         <e p="Lab2" t="Include">
           <e p="Mainlab2.cs" t="Include" />
           <e p="Product.cs" t="Include" />
+          <e p="Run.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

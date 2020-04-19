@@ -14,6 +14,7 @@ namespace buoi2.Lab2
         public string img;
         public string desc;
         public List<string> gallery;
+        public List<Product> productList = new List<Product>();
 
         public Product()
         {
@@ -32,46 +33,91 @@ namespace buoi2.Lab2
 
         public void showInfor()
         {
-            Console.WriteLine("Thong tin san pham"+name+price+qty+img+desc+gallery);
+
+            Console.WriteLine("ID: " + id + " | " + "Name: " + name + " | " + "Price: " + price + " | " + "Qty: " +
+                              qty + " | " + "Image: " + img +
+                              " | " + "Desc: " + desc);
+
+        }
+        public void addProduct(Product product)
+        {
+            productList.Add(product);
         }
 
-        public void stock(int a)
+
+        public void stock()
         {
-            if ( a <= qty)
+            string name;
+            Console.WriteLine("enter product name to check:");
+            name = Convert.ToString(Console.ReadLine());
+            foreach (Product p in productList)
             {
-                Console.WriteLine("Con hang");
-            }
-            else
-            {
-                Console.WriteLine("Het hang");
+                if (name.Equals(p.name))
+                {
+                    if (p.qty > 0)
+                    {
+                        Console.WriteLine("Con hang");
+                    }
+                    else
+                    {
+                        Console.WriteLine("het hang");
+                    }
+                }
             }
         }
 
         public void addGallery()
         {
-            for (int i = 0; i < 10; i++)
+            // for (int i = 0; i < 10; i++)
+            // {
+            //     Console.WriteLine("them anh ");
+            //     i = Convert.ToInt32(Console.ReadLine());
+            //     Console.WriteLine("Da them vao thu vien"+i);
+            // }            
+            if (gallery.Count < 10)
             {
-                Console.WriteLine("them anh ");
-                i = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Da them vao thu vien"+i);
-            }            
-            
+                foreach (Product p in productList)
+                {
+                    gallery.Add(p.img);
+                }
+
+                Console.WriteLine("Them thanh cong vao ");
+                Console.WriteLine("List gallery: ");
+                foreach (String img in gallery)
+                {
+                    Console.WriteLine(img);
+                }
+            }
+            else
+            {
+                Console.WriteLine("Vuot qua so luong them la 10");
+            }
         }
 
-        // public void removeGallery()
-        // {
-        //     Console.WriteLine("Nhap anh muon xoa");
-        //     int n = Convert.ToInt32(Console.ReadLine());
-        //     foreach( n in gallery.Count) 
-        //     { 
-        //         Console.WriteLine("Da xoa"+n); 
-        //     } 
-        //     
-        //     foreach(int n in gallery) 
-        //     { 
-        //         Console.WriteLine(gallery); 
-        //     } 
+        public void removeGallery()
+        {
+            int q;
+            Console.WriteLine("Nhap anh muon xoa");
+            q = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < gallery.Count; i++)
+            {
+                if (i == q)
+                {
+                    gallery.RemoveAt(q - 1);
+                    Console.WriteLine("Xoa thanh cong!");
+                    Console.WriteLine("Gallery list: ");
+                    foreach (string img in gallery)
+                    {
+                        Console.WriteLine(img);
+                    }
+
+                    {
+
+                    }
+                }
+            }
 
 
         }
     }
+}
