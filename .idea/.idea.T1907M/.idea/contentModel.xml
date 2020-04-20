@@ -21,6 +21,13 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Social.cs" t="Include" />
+        <e p="SSS3SSSS" t="Include">
+          <e p="Human.cs" t="Include" />
+          <e p="IHuman.cs" t="Include" />
+          <e p="Man.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+          <e p="Woman.cs" t="Include" />
+        </e>
         <e p="Student.cs" t="Include" />
       </e>
       <e p="ConsoleApp1" t="IncludeRecursive">
