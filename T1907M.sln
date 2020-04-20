@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{1C16FDFC-568D-4A25-9E51-0452F82DBCB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buoi2", "buoi2\buoi2.csproj", "{49B8D838-0EE1-47EE-8898-4E31BFFFFADE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T1907M-Csharp", "T1907M-Csharp\T1907M-Csharp.csproj", "{49B8D838-0EE1-47EE-8898-4E31BFFFFADE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
