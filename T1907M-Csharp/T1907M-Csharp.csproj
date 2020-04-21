@@ -11,8 +11,8 @@
       <None Include="Program.cs" />
       <Compile Remove="Lab2\Mainlab2.cs" />
       <None Include="Lab2\Mainlab2.cs" />
-      <Compile Remove="Lab2\Run.cs" />
-      <None Include="Lab2\Run.cs" />
+      <Compile Remove="SSS3SSSS\Program.cs" />
+      <None Include="SSS3SSSS\Program.cs" />
     </ItemGroup>
 
 </Project>
