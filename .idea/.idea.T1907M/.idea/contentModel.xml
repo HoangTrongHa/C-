@@ -33,6 +33,7 @@
           <e p="Run.cs" t="Include" />
         </e>
         <e p="Lab3" t="Include">
+          <e p="Diamon.cs" t="Include" />
           <e p="Fashion.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
