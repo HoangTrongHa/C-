@@ -8,6 +8,7 @@ namespace buoi2.Asss4
         protected string name;
         protected string right_off_the_bill;
         protected double dongia;
+        
         public Customer()
         {
         }
