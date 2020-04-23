@@ -4,27 +4,7 @@
     <e p="$USER_HOME$/Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_T1907M.1252196003.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="ConsoleApp1" t="IncludeRecursive">
-        <e p="ConsoleApp1.csproj" t="IncludeRecursive" />
-      </e>
-      <e p="ConsoleApp2" t="IncludeRecursive">
-        <e p="ConsoleApp2.csproj" t="IncludeRecursive" />
-      </e>
       <e p="packages" t="ExcludeRecursive" />
-      <e p="T1907M" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="T1907M.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
-        <e p="Program.cs" t="Include" />
-        <e p="So.cs" t="Include" />
-        <e p="Student.cs" t="Include" />
-        <e p="T1907M.csproj" t="IncludeRecursive" />
-      </e>
       <e p="T1907M-Csharp" t="IncludeRecursive">
         <e p="Asss4" t="Include">
           <e p="Customer.cs" t="Include" />
