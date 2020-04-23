@@ -26,6 +26,12 @@
         <e p="T1907M.csproj" t="IncludeRecursive" />
       </e>
       <e p="T1907M-Csharp" t="IncludeRecursive">
+        <e p="Asss4" t="Include">
+          <e p="Customer.cs" t="Include" />
+          <e p="Customer_inland.cs" t="Include" />
+          <e p="Custormer_international.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+        </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Lab2" t="Include">
           <e p="Mainlab2.cs" t="Include" />
@@ -35,6 +41,13 @@
         <e p="Lab3" t="Include">
           <e p="Diamon.cs" t="Include" />
           <e p="Fashion.cs" t="Include" />
+        </e>
+        <e p="Lab_2_3" t="Include">
+          <e p="car.cs" t="Include" />
+          <e p="Diamon.cs" t="Include" />
+          <e p="Fashion.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
