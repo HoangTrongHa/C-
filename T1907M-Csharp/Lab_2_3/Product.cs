@@ -71,6 +71,12 @@ namespace buoi2.Lab_2_3
             this.gallery = gallery;
         }
 
+        public string this[int index]
+        {
+            get { return gallery [index];}
+            set { gallery[index] = value; }
+        }
+
         public void GetInfo()
         {
             Console.WriteLine("ID: " + this.id + " Name:" + name + " qty: " + qty + " price:" + price + " desc: " + desc);

@@ -15,6 +15,10 @@
       <None Include="SSS3SSSS\Program.cs" />
       <Compile Remove="Lab2\Run.cs" />
       <None Include="Lab2\Run.cs" />
+      <Compile Remove="Lab_2_3\Program.cs" />
+      <None Include="Lab_2_3\Program.cs" />
+      <Compile Remove="ChuaAss4\Progran.cs" />
+      <None Include="ChuaAss4\Progran.cs" />
     </ItemGroup>
 
 </Project>

@@ -56,7 +56,6 @@ namespace buoi2.Asss4
        {
            ListVn.Add(Customer);
        }
-
        public void use()
        {
            if (total < 50)

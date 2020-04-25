@@ -18,6 +18,14 @@ namespace buoi2.Lab_2_3
             c1.AddProduct(f1);
             c1.AddProduct(d1);
             Console.WriteLine("Tong tien phai thanh toan:"+ c1.FinalTotal());
+
+            p.AddGallery("anh1.jpg");
+            p.AddGallery("anh2.jpg");
+            p.AddGallery("anh3.jpg");
+            foreach (string x in p.Gallery)
+            {
+                Console.WriteLine(x);
+            }
         }
     }
 }

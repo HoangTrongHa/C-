@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace buoi2.Asss4
@@ -6,7 +7,6 @@ namespace buoi2.Asss4
     {
         private int total;
         private List<Custormer_international> _custormerInternationals;
-
         public Custormer_international(int total, List<Custormer_international> custormerInternationals)
         {
             this.total = total;
@@ -54,6 +54,10 @@ namespace buoi2.Asss4
             this.total = total;
             _custormerInternationals = custormerInternationals;
         }
-        
+
+        public void use2()
+        {
+            dongia = total * 2000;
+        }
     }
 }

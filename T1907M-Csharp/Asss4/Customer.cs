@@ -8,11 +8,9 @@ namespace buoi2.Asss4
         protected string name;
         protected string right_off_the_bill;
         protected double dongia;
-        
         public Customer()
         {
         }
-
         public Customer(int id, string name, string rightOffTheBill,double dongia)
         {
             this.id = id;
@@ -35,16 +33,15 @@ namespace buoi2.Asss4
             get => right_off_the_bill;
             set => right_off_the_bill = value;
         }
-
         public double Dongia
         {
             get => dongia;
             set => dongia = value;
         }
-
-        public void showInfor()
+        public virtual void showInfo()
         {
-            Console.WriteLine("Name"+name+"makhach hang"+id+"ngay ra bill"+right_off_the_bill);
+            Console.WriteLine(" | id:"+id+" | name:"+name+ "Dongia"+dongia);
         }
-    }
+        }
+    
 }
