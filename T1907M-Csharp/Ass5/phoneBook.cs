@@ -58,6 +58,14 @@ namespace buoi2.Ass5
 
             return null;
         }
+        public void show()
+        {
+            foreach (phoneNumber u in phoneList)
+                
+            {
+                Console.WriteLine("Name:"+u.Name+"Phone:"+u.phone);
+            }
+        }
         
         
     }
