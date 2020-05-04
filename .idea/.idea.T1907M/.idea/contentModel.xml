@@ -62,6 +62,7 @@
         </e>
         <e p="SSS6SSSS" t="Include">
           <e p="Calculator.cs" t="Include" />
+          <e p="PhepToan.cs" t="Include" />
           <e p="Programs.cs" t="Include" />
           <e p="TaxCalc.cs" t="Include" />
         </e>

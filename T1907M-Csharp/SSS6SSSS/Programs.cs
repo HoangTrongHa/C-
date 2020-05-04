@@ -38,6 +38,52 @@ namespace buoi2.SSS6SSSS
             float tax4 = tm4(341);
             Console.WriteLine("Thue phai nop tai phap"+tax4);
 
+            
+            // int chose = 0;
+            // NumberAdd p ;
+            // Console.WriteLine("Thue phai nop"+tax3);
+            // do
+            // {
+            //     Console.WriteLine("1. Cong");
+            //     Console.WriteLine("2. Tru");
+            //     Console.WriteLine("3. Nhan ");
+            //     Console.WriteLine("4. Chia");
+            //     Console.WriteLine("Chose: ");
+            //     chose = Convert.ToInt32(Console.ReadLine());
+            //     switch (chose)
+            //     {
+            //         case 1:
+            //              p = PhepToan.NumberFunction("Tong");
+            //             break;
+            //         case 2:
+            //             p = PhepToan.NumberFunction("hieu");
+            //             break;
+            //         case 3:
+            //             p = PhepToan.NumberFunction("tich");
+            //             break;
+            //         case 4:
+            //             p = PhepToan.NumberFunction("Thuong");
+            //             break;
+            //         case 5:
+            //             Environment.Exit(0);
+            //             break;
+            //     }
+            // } while (chose != 5);
+            NumberAdd tm5 = PhepToan.NumberFunction("Tong");// la 1 delegate
+            float tax5 = tm5(123,3123);
+            Console.WriteLine("Tong = "+tax5);
+            
+            NumberAdd tm6 = PhepToan.NumberFunction("hieu");// la 1 delegate
+            float tax6 = tm6(123,3123);
+            Console.WriteLine("hieu = "+tax6);
+            
+            NumberAdd tm7 = PhepToan.NumberFunction("tich");// la 1 delegate
+            float tax7 = tm7(123,3123);
+            Console.WriteLine("Tich = "+tax7);
+            
+            NumberAdd tm8 = PhepToan.NumberFunction("Thuong");// la 1 delegate
+            float tax8 = tm8(1123123,3123);
+            Console.WriteLine("thuong = "+tax8);
         }
        
     }
