@@ -60,6 +60,11 @@
           <e p="Program.cs" t="Include" />
           <e p="Woman.cs" t="Include" />
         </e>
+        <e p="SSS6SSSS" t="Include">
+          <e p="Calculator.cs" t="Include" />
+          <e p="Programs.cs" t="Include" />
+          <e p="TaxCalc.cs" t="Include" />
+        </e>
         <e p="Student.cs" t="Include" />
         <e p="T1907M-Csharp.csproj" t="IncludeRecursive" />
       </e>
