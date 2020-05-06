@@ -23,11 +23,11 @@
       <None Include="SSS6SSSS\Programs.cs" />
       <Compile Remove="SS7\Program.cs" />
       <None Include="SS7\Program.cs" />
+      <Compile Remove="Lab_2_3\Program.cs" />
+      <None Include="Lab_2_3\Program.cs" />
+      <Compile Remove="Ss8\Threadd.cs" />
+      <None Include="Ss8\Threadd.cs" />
         
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Ss8" />
     </ItemGroup>
 
 </Project>
