@@ -1,3 +1,5 @@
+using System;
+
 namespace buoi2.SSS6SSSS
 {
     public delegate int NumberAdd(int a, int b);
@@ -18,23 +20,25 @@ namespace buoi2.SSS6SSSS
         }
         public static int Thuong(int a, int b)
         {
-            return a / b;
-        }
-        public static NumberAdd NumberFunction (string Chucnang)
-        {
-            if (Chucnang == "Tong")
+            try
             {
-                return Tong;
-            }else if (Chucnang=="hieu")
-            {
-                return Hieu;
-            }else if (Chucnang =="tich")
-            {
-                return Tich;
+                return a / b;
             }
-            else
+            catch (Exception e)
             {
-                return Thuong;
+                Console.WriteLine("Sai mm r");
+                throw;
+            }
+        }
+        public static NumberAdd NumberFunction (int  Choose)
+        {
+            switch (Choose)
+            {
+                case 1: return Tong;
+                case 2: return Hieu;
+                case 3: return Tich;
+                case 4: return Thuong;
+default: return null;
             }
         }
     }
