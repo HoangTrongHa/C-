@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 
 namespace buoi2.Lab_2_3
-{
+{    public delegate void ShowAl(string msg);
+
     public class Cart
     {
         private int id;
@@ -10,6 +12,7 @@ namespace buoi2.Lab_2_3
         private List<Product> listProduct;
         private string city;
         private string country;
+        private event ShowAl AddToCart;
 
         public Cart(int id, string customer, double grandTotal, List<Product> listProduct, string city, string country)
         {
@@ -19,12 +22,25 @@ namespace buoi2.Lab_2_3
             this.listProduct = listProduct;
             this.city = city;
             this.country = country;
+            if (AddToCart == null)
+            {
+                AddToCart += AlertMessage;
+            }
         }
-
+        public static void AlertMessage(string msg)
+        {
+            Console.WriteLine(msg);
+        }
+        private event ShowAl AddtoCard;
+        
         public bool AddProduct(Product product)
         {
             listProduct.Add(product);
             // them tien trong grandTotal
+            
+            // phat su kien da them san pham
+
+            AddtoCard("Da the san pham" + product.Name + "Vao gio hang");
             return true;
         }
 

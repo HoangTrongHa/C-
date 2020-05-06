@@ -15,12 +15,19 @@
       <None Include="SSS3SSSS\Program.cs" />
       <Compile Remove="Lab2\Run.cs" />
       <None Include="Lab2\Run.cs" />
-      <Compile Remove="Lab_2_3\Program.cs" />
-      <None Include="Lab_2_3\Program.cs" />
       <Compile Remove="ChuaAss4\Progran.cs" />
       <None Include="ChuaAss4\Progran.cs" />
       <Compile Remove="Ass5\Program.cs" />
       <None Include="Ass5\Program.cs" />
+      <Compile Remove="SSS6SSSS\Programs.cs" />
+      <None Include="SSS6SSSS\Programs.cs" />
+      <Compile Remove="SS7\Program.cs" />
+      <None Include="SS7\Program.cs" />
+        
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Ss8" />
     </ItemGroup>
 
 </Project>

@@ -12,10 +12,14 @@ namespace buoi2.Lab_2_3
         protected string image;
         protected string desc;
         protected List<string> gallery;
-
+        private event ShowAl ChangeQty;
         public Product()
         {
             this.gallery = new List<string>();
+            if (ChangeQty == null)
+            {
+                ChangeQty += Cart.AlertMessage;
+            }
         }
 
         public int Id
@@ -39,7 +43,13 @@ namespace buoi2.Lab_2_3
         public uint Qty
         {
             get => qty;
-            set => qty = value;
+            set
+            {
+                if (qty != 0)
+                {
+                    ChangeQty("So luong san pham da duoc them ");
+                }
+            }
         }
 
         public string Image
