@@ -25,6 +25,7 @@ namespace buoi2.Lab8
                 {
                     for (int k = count3; k >= 0; k--)
                     {
+                        //keyword number format 01 02 03 c#
                         Console.WriteLine(i+" : "+j+":"+k);
                         Thread.Sleep(10);
                     }
@@ -34,7 +35,6 @@ namespace buoi2.Lab8
             Console.WriteLine("Bommmmm");
 
         }
-
 //         public static void CountDownThreadt1()
 //         {
 //             int count1 = 10;

@@ -12,6 +12,9 @@
           <e p="phoneNumber.cs" t="Include" />
           <e p="Program.cs" t="Include" />
         </e>
+        <e p="Ass6" t="Include">
+          <e p="Program.cs" t="Include" />
+        </e>
         <e p="Asss4" t="Include">
           <e p="Customer.cs" t="Include" />
           <e p="Customer_inland.cs" t="Include" />
