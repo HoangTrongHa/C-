@@ -29,6 +29,8 @@
       <None Include="Ss8\Threadd.cs" />
       <Compile Remove="Lab8\CountDown.cs" />
       <None Include="Lab8\CountDown.cs" />
+      <Compile Remove="Ass6\Program.cs" />
+      <None Include="Ass6\Program.cs" />
         
     </ItemGroup>
 
