@@ -80,7 +80,9 @@
           <e p="Programs.cs" t="Include" />
           <e p="TaxCalc.cs" t="Include" />
         </e>
-        <e p="Student.cs" t="Include" />
+        <e p="Student_Management" t="Include">
+          <e p="Student.cs" t="Include" />
+        </e>
         <e p="T1907M-Csharp.csproj" t="IncludeRecursive" />
       </e>
       <e p="T1907M.sln" t="IncludeFlat" />
