@@ -7,6 +7,12 @@ namespace buoi2.GeometryExample
     {
         public static void Main(string[] args)
         {
+            string name;
+            int weight;
+            Lion l = new Lion(100, "Lion");
+            Tiger t = new Tiger(100, "Tiger");
+            l.Show();
+            t.Show();
             int choose = 1;
             Console.WriteLine("nhap Radius:");
             int no1 = readNumber();

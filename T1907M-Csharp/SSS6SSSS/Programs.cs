@@ -4,19 +4,17 @@ namespace buoi2.SSS6SSSS
 {
     public class Programs
     {
-        //khai bao 1 delegate tra ve int 2 tham so int
         
         public delegate int DetegateAdd(int a, int b);
 
         public delegate float AddSalary(float salary);
         public static void Main(string[] args)
-        {//tao 1 doi tuong delegate
+        {
             
             DetegateAdd ii =new DetegateAdd(Calculator.Add);
             ii += Calculator.Stru;
             ii += new Calculator().division;
             ii(2, 4);//nap vao delegate
-            // TaxMoney a = new TaxMoney();();
             
             AddSalary ss = new AddSalary(TaxCalc.vietNam);
             ss(10023);

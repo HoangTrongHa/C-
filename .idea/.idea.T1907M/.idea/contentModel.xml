@@ -29,8 +29,11 @@
           <e p="Progran.cs" t="Include" />
         </e>
         <e p="GeometryExample" t="Include">
+          <e p="Animal.cs" t="Include" />
           <e p="Cylinder.cs" t="Include" />
+          <e p="Lion.cs" t="Include" />
           <e p="Program.cs" t="Include" />
+          <e p="Tiger.cs" t="Include" />
         </e>
         <e p="Lab2" t="Include">
           <e p="Mainlab2.cs" t="Include" />
