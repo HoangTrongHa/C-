@@ -33,6 +33,8 @@
       <None Include="Ass6\Program.cs" />
       <Compile Remove="Student_Management\Student.cs" />
       <None Include="Student_Management\Student.cs" />
+      <Compile Remove="Ss8\NumberCounter.cs" />
+      <None Include="Ss8\NumberCounter.cs" />
         
     </ItemGroup>
 

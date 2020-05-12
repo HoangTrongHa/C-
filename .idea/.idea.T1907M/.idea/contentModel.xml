@@ -28,6 +28,10 @@
           <e p="KhachHangVietNam.cs" t="Include" />
           <e p="Progran.cs" t="Include" />
         </e>
+        <e p="GeometryExample" t="Include">
+          <e p="Cylinder.cs" t="Include" />
+          <e p="Program.cs" t="Include" />
+        </e>
         <e p="Lab2" t="Include">
           <e p="Mainlab2.cs" t="Include" />
           <e p="Product.cs" t="Include" />
